@@ -13,6 +13,27 @@
 // ------------------------------------------------------------
 function firstUniqueChar(string $s): ?string {
     // TODO: implement
+    queue arr[len(s)] = {null}; 
+    string arr1[] = {null};
+    for (i=0;i<len(s);i++)
+    {
+        if(s[i] in arr1)
+        {
+            if(s[i] in arr)
+            {
+                pop[s[i]];
+            }
+        }
+        else
+        {
+            arr1.insert(s[i]);
+            arr.insert(s[i]);
+        }
+    }
+    if(!arr.is_empty())
+    {
+        return arr.pop[top];
+    }
     return null;
 }
 
@@ -23,6 +44,14 @@ function firstUniqueChar(string $s): ?string {
 // ------------------------------------------------------------
 function sumOrder(array $items): int {
     // TODO: implement
+    sum,i=0;
+    while (items)
+    {
+        sum=items[i].qty*items[i].unit_price;
+        i++;
+    }
+    if(sum>0)
+        return sum;
     return 0;
 }
 
