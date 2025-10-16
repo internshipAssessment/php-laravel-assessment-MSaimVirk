@@ -15,6 +15,17 @@ use App\Models\Order;
 // Save result in $orders
 // ------------------------------------------------------------
 $orders = null; // TODO: assign Eloquent query result to $orders
+  
+
+
+
+
+//    NO Experience in laravel so no idea of any santax
+
+
+
+
+
 
 // ------------------------------------------------------------
 // Task 2 — FormRequest rules for storing a User

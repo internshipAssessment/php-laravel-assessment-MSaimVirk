@@ -11,6 +11,20 @@
 // Task 1 — firstUniqueChar(string $s): ?string
 // Return the first non-repeating character or null if none.
 // ------------------------------------------------------------
+
+
+
+
+
+
+// syntax is not for php but a general flow is mentioned below.
+
+
+
+
+
+
+
 function firstUniqueChar(string $s): ?string {
     // TODO: implement
     queue arr[len(s)] = {null}; 
